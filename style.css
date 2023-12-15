@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+   
+}
+
+.nav{
+    position: relative;
+    max-width: 1365px;
+    height: 300px;
+    margin: 5px;
+    border-radius: 15px;
+    background-color: #D5DBDB;
+    
+}
+.titulo{
+    position:absolute;
+    width: 1000px;
+    height: 150px;
+    border-radius: 15px;
+}
+.uno{
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 1000px;
+    height: 75px;
+    font-size: 80px;
+
+}
+.dos{
+    position: absolute;
+    bottom: 0;
+    width:1000px;
+    height:75px ;
+    text-align: center;
+    font-size: 30px;
+    margin-top:10px;
+
+}
+.logo{
+    position: absolute;
+    right: 90px;
+    width: 365px;
+    height: 150px;
+    border-radius: 15px;
+
+}
+.logo img{
+    width: 365px;
+    height:140px ;
+}
+.link{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    right: 0;
+    bottom: 0;
+    width: 1365px;
+    height: 150px;
+    border-radius: 15px;
+    border-top: 10px solid black;
+    background-color: #FFC300;
+}
+.link a{
+    position: relative;
+    width: 100px;
+    height: 40px;
+    text-decoration: none;
+    padding-right: 80px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    text-align:end;
+    color: black;
+    font-size: 25px;
+    border-right: 1px solid black;
+}
+.link a:hover{
+    background-color: bisque;
+}
